@@ -3,8 +3,8 @@
 package main
 
 import (
-	"github.com/brutella/hap"
-	"github.com/brutella/hap/accessory"
+	"github.com/twxstar/hap"
+	"github.com/twxstar/hap/accessory"
 
 	"context"
 	"log"

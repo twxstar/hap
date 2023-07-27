@@ -1,8 +1,8 @@
 package hap
 
 import (
-	"github.com/brutella/hap/hkdf"
 	"github.com/tadglines/go-pkgs/crypto/srp"
+	"github.com/twxstar/hap/hkdf"
 
 	"crypto/sha512"
 	"errors"

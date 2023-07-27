@@ -4,11 +4,11 @@ import (
 	"sync"
 
 	"github.com/brutella/dnssd"
-	"github.com/brutella/hap/accessory"
-	"github.com/brutella/hap/characteristic"
-	"github.com/brutella/hap/log"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
+	"github.com/twxstar/hap/accessory"
+	"github.com/twxstar/hap/characteristic"
+	"github.com/twxstar/hap/log"
 	"github.com/xiam/to"
 	"golang.org/x/text/secure/precis"
 	"golang.org/x/text/transform"
@@ -478,7 +478,7 @@ func (s *Server) updateTxtRecords() {
 }
 
 func (s *Server) service() (dnssd.Service, error) {
-	// 2016-03-14(brutella): Replace whitespaces (" ") from service name
+	// 2016-03-14(twxstar): Replace whitespaces (" ") from service name
 	// with underscores ("_")to fix invalid http host header field value
 	// produces by iOS.
 	//

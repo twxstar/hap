@@ -3,7 +3,7 @@ package hap
 import (
 	"sync"
 
-	"github.com/brutella/hap/log"
+	"github.com/twxstar/hap/log"
 
 	"bufio"
 	"bytes"

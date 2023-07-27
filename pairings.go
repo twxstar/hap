@@ -1,8 +1,8 @@
 package hap
 
 import (
-	"github.com/brutella/hap/log"
-	"github.com/brutella/hap/tlv8"
+	"github.com/twxstar/hap/log"
+	"github.com/twxstar/hap/tlv8"
 
 	"net/http"
 	"reflect"

@@ -1,7 +1,7 @@
 package accessory
 
 import (
-	"github.com/brutella/hap/service"
+	"github.com/twxstar/hap/service"
 )
 
 type Heater struct {
@@ -13,7 +13,7 @@ type Heater struct {
 func NewHeater(info Info) *Heater {
 	a := Heater{}
 	a.A = New(info, TypeHeater)
-	
+
 	a.Heater = service.NewHeater()
 	a.AddS(a.Heater.S)
 

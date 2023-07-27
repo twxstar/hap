@@ -6,15 +6,15 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/brutella/hap/gen"
-	"github.com/brutella/hap/gen/markdown"
+	"github.com/twxstar/hap/gen"
+	"github.com/twxstar/hap/gen/markdown"
 	"io/ioutil"
 	"log"
 	"os"
 	"path/filepath"
 )
 
-var LibPath = os.ExpandEnv("$GOPATH/src/github.com/brutella/hap")
+var LibPath = os.ExpandEnv("$GOPATH/src/github.com/twxstar/hap")
 var GenPath = filepath.Join(LibPath, "gen")
 var MetadataPath = filepath.Join(GenPath, "metadata.json")
 var SvcFilePath = filepath.Join(LibPath, "service/README.md")

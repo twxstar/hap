@@ -1,7 +1,7 @@
 package accessory
 
 import (
-	"github.com/brutella/hap/service"
+	"github.com/twxstar/hap/service"
 )
 
 // Camera provides RTP video streaming.
@@ -16,7 +16,7 @@ type Camera struct {
 func NewCamera(info Info) *Camera {
 	a := Camera{}
 	a.A = New(info, TypeIPCamera)
-	
+
 	a.Control = service.NewCameraControl()
 	a.AddS(a.Control.S)
 

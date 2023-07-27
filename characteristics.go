@@ -1,9 +1,9 @@
 package hap
 
 import (
-	"github.com/brutella/hap/accessory"
-	"github.com/brutella/hap/characteristic"
-	"github.com/brutella/hap/log"
+	"github.com/twxstar/hap/accessory"
+	"github.com/twxstar/hap/characteristic"
+	"github.com/twxstar/hap/log"
 	"github.com/xiam/to"
 
 	"encoding/json"

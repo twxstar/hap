@@ -1,4 +1,4 @@
-module github.com/brutella/hap
+module github.com/twxstar/hap
 
 go 1.16
 

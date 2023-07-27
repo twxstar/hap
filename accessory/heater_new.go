@@ -1,7 +1,7 @@
 package accessory
 
 import (
-	"github.com/brutella/hap/service"
+	"github.com/twxstar/hap/service"
 )
 
 type Heater_New struct {

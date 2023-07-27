@@ -13,7 +13,7 @@ type alias struct {
 	Name string `tlv8:"3"`
 }
 
-var p = person{"Matthias", []alias{alias{"brutella"}, alias{"adsf"}}}
+var p = person{"Matthias", []alias{alias{"twxstar"}, alias{"adsf"}}}
 
 func TestUnmarshalPerson(t *testing.T) {
 	tlv8, err := Marshal(p)
@@ -35,7 +35,7 @@ func TestUnmarshalPerson(t *testing.T) {
 		t.Fatalf("is=%v want=%v", is, want)
 	}
 
-	if is, want := pers.Aliases[0].Name, "brutella"; is != want {
+	if is, want := pers.Aliases[0].Name, "twxstar"; is != want {
 		t.Fatalf("is=%v want=%v", is, want)
 	}
 

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/brutella/hap"
-	"github.com/brutella/hap/accessory"
-	"github.com/brutella/hap/log"
+	"github.com/twxstar/hap"
+	"github.com/twxstar/hap/accessory"
+	"github.com/twxstar/hap/log"
 
 	"context"
 	syslog "log"
